@@ -1,0 +1,78 @@
+/*页眉样式*/
+.header {background-color: #ffffff;padding: 0px;}
+/* div#headerAnimation { */
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    /* position: relative; */
+    /* animation-name: example; */
+    /* animation-duration: 4s; */
+    /* animation-iteration-count: infinite; */
+  /* } */
+  
+  @keyframes example {
+    0%   {color: white; left: 0px; top: 0px;}
+    25%  {color:yellow; left: 256px; top: 0px;}
+    50%  {color:rgb(87, 87, 214); left: 512px; top: 0px;}
+    75%  {color:rgb(5, 211, 5); left: 768px; top: 0px;}
+    100% {color:red; left: 1028px; top: 0px;}
+  }
+h1 {color: white;
+    /* font-family: "Ruslan+Display",cursive; */
+    /* font-size: 300%; */
+    text-shadow: 2px 2px 5px red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;}
+/* @import url("https://fonts.font.im/css?family=Ruslan+Display"); */
+
+
+/*导航栏样式*/
+.topnav {overflow: hidden;background-color: #ffffff;}
+/*topnav链接样式*/
+.topnav a {float: left;display: block;color: rgb(0, 0, 0);text-align: center;padding:14px 16px;text-decoration: none;}
+/*topnav2链接样式*/
+.topnav2 a {float: right;display: block;color: black;text-align: center;padding:14px 16px;text-decoration: none;}
+/*鼠标悬停颜色*/
+.topnav a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
+/*鼠标悬停颜色2*/
+.topnav2 a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
+/*两个并排的列*/
+.column1 {float: left;width: 55%;padding: 30px;}
+/* .column2 {float: right;width: 40%;padding: 30px;padding-top: 80px;} */
+.row {background-image: url(images/translog-header.png);background-size: contain;}
+/*页脚*/
+.footerLink {padding:0px;text-align: center;clear:both;font-size: large;}
+.footerCopyright {padding: 4px;text-align: center;clear:both;font-size: large;}
+/*页面缩放不变形*/
+body {width:100%; height:auto;margin: 0px;}
+div#box {width: 1280px; height: auto;margin: auto;}
+
+/*字体*/
+.p1 {font-size: 200%;text-align: justify;}
+.pLinks a {font-size: large;color: black; text-decoration: none;font-family: "Arial", "Microsoft Yahei";}
+.pLinks a:hover {color:rgb(36, 13, 238);}
+.pLinks {font-family: "Arial", "Microsoft Yahei";}
+.pCopyright {font-family: "Arial", "Microsoft Yahei"}
+body {font-family: "Arial", "Microsoft Yahei";}
+.topnav a {font-size: larger;}
+
+/*水平线*/
+/* .hrTop {height: 8px;width: 100%;border: none;border-top: 1px solid;color: #a09c9c;} */
+.hrTop {width:100%;margin:0 auto; border: 0;height: 2px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
+/* .hrBottom {height: 5px;width: 100%;border: 0;border-top: 4px solid;color: rgb(62, 62, 233);} */
+.hrBottom {width:100%;margin:0 auto; border: 0;height: 5px;background-image: linear-gradient(to right, rgba(62, 62, 233), rgba(62, 62, 233), rgba(62, 62, 233));}
+.hrHeader {width:100%;margin:0 auto; border: 0;height: 5px;background-image: linear-gradient(to right, rgba(62, 62, 233), rgba(62, 62, 233), rgba(62, 62, 233));}
+
+/*introduction*/
+.p3 {font-size: 250%;margin-top: 10px;}
+.p4 {font-size: 170%;text-align: justify;}
+h2 {font-size: 250%;}
+
+/*use*/
+.columnUse {float: left;width: 100%;padding: 30px;}
+.image {display: block;margin-left: auto;margin-right: auto;}
+
+
