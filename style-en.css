@@ -1,5 +1,5 @@
 /*页眉样式*/
-.header {background-color: #ffffff;padding: 0px;}
+.header {background-color: #ffffff;padding: 8px;}
 /* div#headerAnimation { */
     /* width: 100px; */
     /* height: 100px; */
@@ -19,7 +19,7 @@
   }
 h1 {color: white;
     /* font-family: "Ruslan+Display",cursive; */
-    /* font-size: 300%; */
+    font-size: 300%;
     text-shadow: 2px 2px 5px red;
     position: relative;
     animation-name: example;
@@ -32,11 +32,13 @@ h1 {color: white;
 /*导航栏样式*/
 .topnav {overflow: hidden;background-color: #ffffff;}
 /*topnav链接样式*/
-.topnav a {float: left;display: block;color: rgb(0, 0, 0);text-align: center;padding:14px 16px;text-decoration: none;}
+.topnav1 a {float: left;display: block;color: rgb(0, 0, 0);text-align: center;padding:14px 16px;text-decoration: none;}
+.topnavHome a {float: left;display: block;color: rgb(0, 0, 0);text-align: center;padding:14px 16px;text-decoration: none;}
 /*topnav2链接样式*/
 .topnav2 a {float: right;display: block;color: black;text-align: center;padding:14px 16px;text-decoration: none;}
 /*鼠标悬停颜色*/
-.topnav a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
+.topnav1 a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
+.topnavHome a:hover {background-color: rgb(184, 63, 63);color: white;}
 /*鼠标悬停颜色2*/
 .topnav2 a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
 /*两个并排的列*/
