@@ -37,10 +37,10 @@ h1 {color: white;
 /*topnav2链接样式*/
 .topnav2 a {float: right;display: block;color: black;text-align: center;padding:14px 16px;text-decoration: none;}
 /*鼠标悬停颜色*/
-.topnav1 a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
-.topnavHome a:hover {background-color: rgb(184, 63, 63);color: white;}
+.topnav1 a:hover {background-color: rgba(105, 105, 230);color:rgb(255, 255, 255)}
+.topnavHome a:hover {background-color: rgb(190, 93, 93);color: white;}
 /*鼠标悬停颜色2*/
-.topnav2 a:hover {background-color: rgba(62, 62, 233);color:rgb(255, 255, 255)}
+.topnav2 a:hover {background-color: rgba(105, 105, 230);color:rgb(255, 255, 255)}
 /*两个并排的列*/
 .column1 {float: left;width: 55%;padding: 30px;}
 /* .column2 {float: right;width: 40%;padding: 30px;padding-top: 80px;} */
@@ -71,8 +71,8 @@ body {font-family: "Arial", "Microsoft Yahei";}
 /* .hrTop {height: 8px;width: 100%;border: none;border-top: 1px solid;color: #a09c9c;} */
 .hrTop {width:100%;margin:0 auto; border: 0;height: 2px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
 /* .hrBottom {height: 5px;width: 100%;border: 0;border-top: 4px solid;color: rgb(62, 62, 233);} */
-.hrBottom {width:100%;margin:0 auto; border: 0;height: 5px;background-image: linear-gradient(to right, rgba(62, 62, 233), rgba(62, 62, 233), rgba(62, 62, 233));}
-.hrHeader {width:100%;margin:0 auto; border: 0;height: 5px;background-image: linear-gradient(to right, rgba(62, 62, 233), rgba(62, 62, 233), rgba(62, 62, 233));}
+.hrBottom {width:100%;margin:0 auto; border: 0;height: 5px;background-image: linear-gradient(to right, rgba(105, 105, 230), rgba(105, 105, 230), rgba(105, 105, 230));}
+.hrHeader {width:100%;margin:0 auto; border: 0;height: 5px;background-image: linear-gradient(to right, rgba(105, 105, 230), rgba(105, 105, 230), rgba(105, 105, 230));}
 
 /*introduction*/
 .p3 {font-size: 250%;margin-top: 10px;}
