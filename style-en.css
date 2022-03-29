@@ -1,5 +1,5 @@
 /*页眉样式*/
-.header {background-color: #ffffff;padding: 8px;}
+.header {background-color: #ffffff;padding: 8px;background-image: url(images/headerBackground.jpg);background-size: cover;background-repeat: no-repeat;opacity: 0.8;}
 /* div#headerAnimation { */
     /* width: 100px; */
     /* height: 100px; */
@@ -60,7 +60,13 @@ div#box {width: 1280px; height: auto;margin: auto;}
 .pCopyright {font-family: "Arial", "Microsoft Yahei"}
 body {font-family: "Arial", "Microsoft Yahei";}
 .topnav a {font-size: larger;}
-
+/*首字下沉*/
+.p1:first-child::first-letter{
+  color: #000000;
+  font-size: 1.5em;
+  float:left;
+  margin: 0.15em 0.15em 0.15em;
+ }
 /*水平线*/
 /* .hrTop {height: 8px;width: 100%;border: none;border-top: 1px solid;color: #a09c9c;} */
 .hrTop {width:100%;margin:0 auto; border: 0;height: 2px;background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));}
